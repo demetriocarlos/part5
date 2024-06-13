@@ -36,8 +36,6 @@ const App = () => {
     }
   }, [user]);
 
-  console.log(blogs);
-
   //
   const updateBlogList = (updatedBlog) => {
     const updatedBlogs = blogs.map((blog) =>
